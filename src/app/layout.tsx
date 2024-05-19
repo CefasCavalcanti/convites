@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Convite",
   description: "Você é nosso convidado especial",
   openGraph: {
-    images: '/images/convite.png',
+    images: 'https://lh7-us.googleusercontent.com/y_VYnClTJdklQX94tPYIZXQwC_xLp-xcPnXLhwK7sRnXAKs2PfKFychragQUg7EyFAvANxWxDLYkD8nDu1KqbMySOjW5GSr11FIgZsNqgctXAkOerZ7TuQL9cYMwCre2IkDd8co8p9olU0dZ',
   },
   keywords: ["Convites"],
 };
