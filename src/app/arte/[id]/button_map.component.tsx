@@ -2,10 +2,7 @@
 
 export const ButtonMap = () => {
   function abrirGoogleMaps() {
-    var latitude = -9.3496974;
-    var longitude = -40.6793575;
-
-    var url = `https://www.google.com/maps?q=${latitude},${longitude}`;
+    var url = `https://maps.app.goo.gl/uPvu1PgaBUbaLPLW6`;
     window.open(url);
   }
   return (
