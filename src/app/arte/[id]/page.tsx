@@ -85,7 +85,7 @@ export default function Page({ params, searchParams }: Props) {
             priority
           />
         </div>
-        <div className="fixed backdrop-blur-sm bottom-0 flex flex-col items-center gap-2 justify-center  sm:p-2 p-2 h-50 mb-4 mt-auto rounded-md">
+        <div className="fixed backdrop-blur-sm bg-gray-300 bottom-0 flex flex-col items-center gap-2 justify-center  sm:p-2 p-2 h-50 mb-4 mt-auto rounded-md">
           <h1 className="text-[#926751] font-bold text-2xl">Confirme sua presença</h1>
           <div className="flex gap-4 items-center overflow-x-auto">
             <Link className=" mx-auto font-semibold rounded-md" href={`/form/recusa`}>
