@@ -5,13 +5,13 @@ type Props = {
 export default function Form({ params, searchParams }: Props) {
   let src = "";
   switch (params.id) {
-    case "frauda-g":
+    case "fralda-g":
       src = "https://docs.google.com/forms/d/e/1FAIpQLScZrit9jmMEw_cT7gkkXSWu8oOCtHp5Ee7IFjd3caLIHd_kzA/viewform?embedded=true"
       break
-    case "frauda-m":
+    case "fralda-m":
       src = "https://docs.google.com/forms/d/e/1FAIpQLSfM3X0IA-5GoZnYm34OBpVF2sLG7VRpmshvWUqV1K_HVmKhAA/viewform?embedded=true"
       break
-    case "frauda-p":
+    case "fralda-p":
       src = "https://docs.google.com/forms/d/e/1FAIpQLSeBdzsA6-blhALd0qEc69B9TAKFOYxFRhT0Ew3gPi3VrDmqdA/viewform?embedded=true"
       break
     case "recusa":
