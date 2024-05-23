@@ -65,7 +65,7 @@ export default function Page({ params, searchParams }: Props) {
         />
 
         <div className="flex flex-col items-center justify-center">
-          <h1 className="text-[#926751] font-bold text-lg">Rua G, N° 58, N-4, Petrolina-Pe</h1>
+          <h1 className="text-[#926751] font-bold text-lg">Rua G, N° 39, N-4, Petrolina-Pe</h1>
           <ButtonMap />
         </div>
 
