@@ -57,7 +57,7 @@ export default async function Form({ params, searchParams }: Props) {
         height={733}
         priority
       />
-      <iframe className="min-h-max overflow-visible" src={`${product.form}`} height={product.bgButton} width="605" >Carregando…</iframe>
+      {/* <iframe className="min-h-max overflow-visible" src={`${product.form}`} height={product.bgButton} width="605" >Carregando…</iframe> */}
       <div className="overflow-auto max-w-full fixed flex-col backdrop-blur-sm p-2 bg-black/10 inset-x-auto bottom-1 items-center gap-2 justify-center  sm:px-8 px-4  h-50 my-auto rounded-md">
 
         <div className="flex h-28 w-80 gap-4 items-center  justify-center">
@@ -67,16 +67,15 @@ export default async function Form({ params, searchParams }: Props) {
               Localização
             </button>
           </Link>
-          {/* <Link href={`${product.form}`}>
+          <Link href={`${product.form}`}>
             <button className={`h-16 w-36 px-2 items-center justify-center bg-green-800 flex font-semibold rounded-md text-white`} type="button"  >
               < LottiePlayer className="h-24 -ml-20 px-2 -mr-16" src="https://lottie.host/4c1ae959-9cc8-4730-9695-f689adac5dd2/tSC7Qjn8dd.json" />
               Confirmar
             </button>
-          </Link> */}
+          </Link>
         </div>
         <h1 className="text-white m-auto font-bold text-2xl">Clique para interagir</h1>
       </div>
-
     </main>
   )
 }
