@@ -28,7 +28,7 @@ export async function generateMetadata(
   const id = params.id
 
   // fetch data
-  const product: Convite = await fetch(`https://script.google.com/macros/s/AKfycbxw-gt0T8NJT2_fjZB01CdYYwuXplfwoA6x06g0rzR6Nbps1ifepEAqz18iocuMWHLG/exec?name=${id}`, { cache: 'force-cache' }).then((res) => res.json())
+  const product: Convite = await fetch(`https://script.google.com/macros/s/AKfycbxw-gt0T8NJT2_fjZB01CdYYwuXplfwoA6x06g0rzR6Nbps1ifepEAqz18iocuMWHLG/exec?name=${id}`).then((res) => res.json())
 
   // optionally access and extend (rather than replace) parent metadata
   const previousImages = (await parent).openGraph?.images || []
@@ -45,7 +45,7 @@ export async function generateMetadata(
 
 export default async function Form({ params, searchParams }: Props) {
   const id = params.id
-  const product: Convite = await fetch(`https://script.google.com/macros/s/AKfycbxw-gt0T8NJT2_fjZB01CdYYwuXplfwoA6x06g0rzR6Nbps1ifepEAqz18iocuMWHLG/exec?name=${id}`, { cache: 'force-cache' }).then((res) => res.json())
+  const product: Convite = await fetch(`https://script.google.com/macros/s/AKfycbxw-gt0T8NJT2_fjZB01CdYYwuXplfwoA6x06g0rzR6Nbps1ifepEAqz18iocuMWHLG/exec?name=${id}`).then((res) => res.json())
 
   return (
     <main className={`flex flex-col bg-black items-center justify-center min-h-screen min-w-fit`}>
