@@ -77,13 +77,13 @@ export default async function Form({ params, searchParams }: Props) {
 
         <div className="flex h-full p-1 w-full gap-4 items-center justify-center">
           <Link href={`${product.local}`}>
-            <button className={`px-1 overflow-auto bg-green-800  items-center justify-center flex font-semibold rounded-md text-white`} type="button" >
+            <button className={`px-1 w-40 bg-green-800  items-center justify-center flex font-semibold rounded-md text-white`} type="button" >
               < LottiePlayer className="h-10 -mx-4" src="https://lottie.host/e7ed314d-d186-48fc-8ea1-bd75f74388d4/WbfHdjYY09.json" />
               Localização
             </button>
           </Link>
           <Link href={`${product.form}`}>
-            <button className={`px-2 items-center justify-center bg-green-800 flex font-semibold rounded-md text-white`} type="button"  >
+            <button className={`px-2 w-32 items-center justify-center bg-green-800 flex font-semibold rounded-md text-white`} type="button"  >
               < LottiePlayer className="h-16 -ml-14 -my-3 -mr-12" src="https://lottie.host/4c1ae959-9cc8-4730-9695-f689adac5dd2/tSC7Qjn8dd.json" />
               Confirmar
             </button>
