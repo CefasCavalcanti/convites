@@ -75,7 +75,7 @@ export default async function Form({ params, searchParams }: Props) {
         rounded-md
       ">
 
-        <div className="flex h-full p-1 overflow-auto w-full gap-4 items-center justify-center">
+        <div className="flex h-full p-1 w-full gap-4 items-center justify-center">
           <Link href={`${product.local}`}>
             <button className={`px-1 overflow-auto bg-green-800  items-center justify-center flex font-semibold rounded-md text-white`} type="button" >
               < LottiePlayer className="h-10 gap-4 -ml-1" src="https://lottie.host/e7ed314d-d186-48fc-8ea1-bd75f74388d4/WbfHdjYY09.json" />
